@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/jconfig.h
+
+/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/jinclude.h
+jconfig.h
+/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/jconfig.h
+stddef.h
+-
+stdlib.h
+-
+sys/types.h
+-
+stdio.h
+-
+strings.h
+-
+string.h
+-
+
+/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/rdjpgcom.c
+jinclude.h
+/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/jinclude.h
+locale.h
+-
+ctype.h
+-
+fcntl.h
+-
+io.h
+-
+SIOUX.h
+-
+console.h
+-
+console.h
+-
+

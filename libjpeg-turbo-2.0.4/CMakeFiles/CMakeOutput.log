@@ -1,0 +1,726 @@
+The system is: Darwin - 19.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/3.17.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eee63/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eee63.dir/build.make CMakeFiles/cmTC_eee63.dir/build
+Building C object CMakeFiles/cmTC_eee63.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_eee63.dir/testCCompiler.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_eee63
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eee63.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eee63.dir/testCCompiler.c.o  -o cmTC_eee63 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c261/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c261.dir/build.make CMakeFiles/cmTC_5c261.dir/build
+Building C object CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.3 (clang-1103.0.32.59)
+Target: x86_64-apple-darwin19.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.4 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.3 (clang-1103.0.32.59) default target x86_64-apple-darwin19.4.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_5c261
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c261.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o  -o cmTC_5c261 
+Apple clang version 11.0.3 (clang-1103.0.32.59)
+Target: x86_64-apple-darwin19.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_5c261 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5c261/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c261.dir/build.make CMakeFiles/cmTC_5c261.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.59)]
+  ignore line: [Target: x86_64-apple-darwin19.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.4 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.3 (clang-1103.0.32.59) default target x86_64-apple-darwin19.4.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_5c261]
+  ignore line: [/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c261.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o  -o cmTC_5c261 ]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.59)]
+  ignore line: [Target: x86_64-apple-darwin19.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_5c261 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [10.15.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5c261] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_5c261.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c6ac/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3c6ac.dir/build.make CMakeFiles/cmTC_3c6ac.dir/build
+Building C object CMakeFiles/cmTC_3c6ac.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3c6ac.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c6ac
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c6ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3c6ac.dir/CheckIncludeFile.c.o  -o cmTC_3c6ac 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0096/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b0096.dir/build.make CMakeFiles/cmTC_b0096.dir/build
+Building C object CMakeFiles/cmTC_b0096.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b0096.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b0096
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0096.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0096.dir/CheckIncludeFile.c.o  -o cmTC_b0096 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3e03/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e3e03.dir/build.make CMakeFiles/cmTC_e3e03.dir/build
+Building C object CMakeFiles/cmTC_e3e03.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e3e03.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e3e03
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e03.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e3e03.dir/CheckIncludeFile.c.o  -o cmTC_e3e03 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03729/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_03729.dir/build.make CMakeFiles/cmTC_03729.dir/build
+Building C object CMakeFiles/cmTC_03729.dir/SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_03729.dir/SIZE_T.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_03729
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03729.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_03729.dir/SIZE_T.c.o  -o cmTC_03729 
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df1e8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df1e8.dir/build.make CMakeFiles/cmTC_df1e8.dir/build
+Building C object CMakeFiles/cmTC_df1e8.dir/UNSIGNED_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_df1e8.dir/UNSIGNED_LONG.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_df1e8
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df1e8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df1e8.dir/UNSIGNED_LONG.c.o  -o cmTC_df1e8 
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b31b8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b31b8.dir/build.make CMakeFiles/cmTC_b31b8.dir/build
+Building C object CMakeFiles/cmTC_b31b8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_BUILTIN_CTZL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b31b8.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b31b8
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b31b8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_BUILTIN_CTZL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b31b8.dir/src.c.o  -o cmTC_b31b8 
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_738a7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_738a7.dir/build.make CMakeFiles/cmTC_738a7.dir/build
+Building C object CMakeFiles/cmTC_738a7.dir/HAVE_LOCALE_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_738a7.dir/HAVE_LOCALE_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_738a7
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_738a7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_738a7.dir/HAVE_LOCALE_H.c.o  -o cmTC_738a7 
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bd5b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9bd5b.dir/build.make CMakeFiles/cmTC_9bd5b.dir/build
+Building C object CMakeFiles/cmTC_9bd5b.dir/HAVE_STDLIB_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9bd5b.dir/HAVE_STDLIB_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_9bd5b
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bd5b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9bd5b.dir/HAVE_STDLIB_H.c.o  -o cmTC_9bd5b 
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e22dd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e22dd.dir/build.make CMakeFiles/cmTC_e22dd.dir/build
+Building C object CMakeFiles/cmTC_e22dd.dir/NEED_SYS_TYPES_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e22dd.dir/NEED_SYS_TYPES_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_e22dd
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22dd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e22dd.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_e22dd 
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da007/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_da007.dir/build.make CMakeFiles/cmTC_da007.dir/build
+Building C object CMakeFiles/cmTC_da007.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_da007.dir/CheckSymbolExists.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_da007
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da007.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da007.dir/CheckSymbolExists.c.o  -o cmTC_da007 
+
+
+File /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc02e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc02e.dir/build.make CMakeFiles/cmTC_cc02e.dir/build
+Building C object CMakeFiles/cmTC_cc02e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc02e.dir/CheckSymbolExists.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc02e
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc02e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc02e.dir/CheckSymbolExists.c.o  -o cmTC_cc02e 
+
+
+File /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned char passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_adb3e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_adb3e.dir/build.make CMakeFiles/cmTC_adb3e.dir/build
+Building C object CMakeFiles/cmTC_adb3e.dir/UNSIGNED_CHAR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_adb3e.dir/UNSIGNED_CHAR.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_CHAR.c
+Linking C executable cmTC_adb3e
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb3e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_adb3e.dir/UNSIGNED_CHAR.c.o  -o cmTC_adb3e 
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c50da/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c50da.dir/build.make CMakeFiles/cmTC_c50da.dir/build
+Building C object CMakeFiles/cmTC_c50da.dir/UNSIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c50da.dir/UNSIGNED_SHORT.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_SHORT.c
+Linking C executable cmTC_c50da
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50da.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c50da.dir/UNSIGNED_SHORT.c.o  -o cmTC_c50da 
+
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_decd5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_decd5.dir/build.make CMakeFiles/cmTC_decd5.dir/build
+Building C object CMakeFiles/cmTC_decd5.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DINCOMPLETE_TYPES -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_decd5.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_decd5
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_decd5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DINCOMPLETE_TYPES -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_decd5.dir/src.c.o  -o cmTC_decd5 
+
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25f67/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25f67.dir/build.make CMakeFiles/cmTC_25f67.dir/build
+Building C object CMakeFiles/cmTC_25f67.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DINLINE_WORKS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_25f67.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_25f67
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f67.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DINLINE_WORKS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25f67.dir/src.c.o  -o cmTC_25f67 
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Looking for a ASM_NASM compiler passed with the following output:
+-- The ASM_NASM compiler identification is YASM
+-- Found assembler: /usr/local/bin/yasm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/simd/CMakeFiles/CheckASM_NASM
+
+Checking whether the ASM_NASM compiler is YASM using "--version" matched "(yasm)":
+yasm 1.3.0
+Compiled on Dec 20 2019.
+Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+Run yasm --license for licensing overview and summary.
+The system is: Darwin - 19.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/3.17.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52d5d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52d5d.dir/build.make CMakeFiles/cmTC_52d5d.dir/build
+Building C object CMakeFiles/cmTC_52d5d.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_52d5d.dir/testCCompiler.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_52d5d
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d5d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52d5d.dir/testCCompiler.c.o  -o cmTC_52d5d 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70a20/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70a20.dir/build.make CMakeFiles/cmTC_70a20.dir/build
+Building C object CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.3 (clang-1103.0.32.59)
+Target: x86_64-apple-darwin19.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.4 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.3 (clang-1103.0.32.59) default target x86_64-apple-darwin19.4.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_70a20
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a20.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o  -o cmTC_70a20 
+Apple clang version 11.0.3 (clang-1103.0.32.59)
+Target: x86_64-apple-darwin19.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_70a20 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_70a20/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70a20.dir/build.make CMakeFiles/cmTC_70a20.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.59)]
+  ignore line: [Target: x86_64-apple-darwin19.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.4 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.3 (clang-1103.0.32.59) default target x86_64-apple-darwin19.4.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_70a20]
+  ignore line: [/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a20.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o  -o cmTC_70a20 ]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.59)]
+  ignore line: [Target: x86_64-apple-darwin19.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_70a20 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [10.15.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_70a20] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_70a20.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00261/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00261.dir/build.make CMakeFiles/cmTC_00261.dir/build
+Building C object CMakeFiles/cmTC_00261.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_00261.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00261
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00261.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_00261.dir/CheckIncludeFile.c.o  -o cmTC_00261 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efd28/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_efd28.dir/build.make CMakeFiles/cmTC_efd28.dir/build
+Building C object CMakeFiles/cmTC_efd28.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_efd28.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_efd28
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efd28.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_efd28.dir/CheckIncludeFile.c.o  -o cmTC_efd28 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdfcb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cdfcb.dir/build.make CMakeFiles/cmTC_cdfcb.dir/build
+Building C object CMakeFiles/cmTC_cdfcb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cdfcb.dir/CheckIncludeFile.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cdfcb
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdfcb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cdfcb.dir/CheckIncludeFile.c.o  -o cmTC_cdfcb 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4240f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4240f.dir/build.make CMakeFiles/cmTC_4240f.dir/build
+Building C object CMakeFiles/cmTC_4240f.dir/SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4240f.dir/SIZE_T.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_4240f
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4240f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4240f.dir/SIZE_T.c.o  -o cmTC_4240f 
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04a1b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_04a1b.dir/build.make CMakeFiles/cmTC_04a1b.dir/build
+Building C object CMakeFiles/cmTC_04a1b.dir/UNSIGNED_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_04a1b.dir/UNSIGNED_LONG.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_04a1b
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a1b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_04a1b.dir/UNSIGNED_LONG.c.o  -o cmTC_04a1b 
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f75aa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f75aa.dir/build.make CMakeFiles/cmTC_f75aa.dir/build
+Building C object CMakeFiles/cmTC_f75aa.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_BUILTIN_CTZL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f75aa.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f75aa
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75aa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_BUILTIN_CTZL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f75aa.dir/src.c.o  -o cmTC_f75aa 
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0917/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e0917.dir/build.make CMakeFiles/cmTC_e0917.dir/build
+Building C object CMakeFiles/cmTC_e0917.dir/HAVE_LOCALE_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e0917.dir/HAVE_LOCALE_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_e0917
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0917.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0917.dir/HAVE_LOCALE_H.c.o  -o cmTC_e0917 
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_042ca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_042ca.dir/build.make CMakeFiles/cmTC_042ca.dir/build
+Building C object CMakeFiles/cmTC_042ca.dir/HAVE_STDLIB_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_042ca.dir/HAVE_STDLIB_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_042ca
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_042ca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_042ca.dir/HAVE_STDLIB_H.c.o  -o cmTC_042ca 
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fd62/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6fd62.dir/build.make CMakeFiles/cmTC_6fd62.dir/build
+Building C object CMakeFiles/cmTC_6fd62.dir/NEED_SYS_TYPES_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6fd62.dir/NEED_SYS_TYPES_H.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_6fd62
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd62.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6fd62.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_6fd62 
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6128f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6128f.dir/build.make CMakeFiles/cmTC_6128f.dir/build
+Building C object CMakeFiles/cmTC_6128f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6128f.dir/CheckSymbolExists.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6128f
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6128f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6128f.dir/CheckSymbolExists.c.o  -o cmTC_6128f 
+
+
+File /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fa1c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5fa1c.dir/build.make CMakeFiles/cmTC_5fa1c.dir/build
+Building C object CMakeFiles/cmTC_5fa1c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5fa1c.dir/CheckSymbolExists.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5fa1c
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fa1c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5fa1c.dir/CheckSymbolExists.c.o  -o cmTC_5fa1c 
+
+
+File /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned char passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df5e1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df5e1.dir/build.make CMakeFiles/cmTC_df5e1.dir/build
+Building C object CMakeFiles/cmTC_df5e1.dir/UNSIGNED_CHAR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_df5e1.dir/UNSIGNED_CHAR.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_CHAR.c
+Linking C executable cmTC_df5e1
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df5e1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df5e1.dir/UNSIGNED_CHAR.c.o  -o cmTC_df5e1 
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76d28/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76d28.dir/build.make CMakeFiles/cmTC_76d28.dir/build
+Building C object CMakeFiles/cmTC_76d28.dir/UNSIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76d28.dir/UNSIGNED_SHORT.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CheckTypeSize/UNSIGNED_SHORT.c
+Linking C executable cmTC_76d28
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d28.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76d28.dir/UNSIGNED_SHORT.c.o  -o cmTC_76d28 
+
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6537c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6537c.dir/build.make CMakeFiles/cmTC_6537c.dir/build
+Building C object CMakeFiles/cmTC_6537c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DINCOMPLETE_TYPES -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6537c.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6537c
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6537c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DINCOMPLETE_TYPES -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6537c.dir/src.c.o  -o cmTC_6537c 
+
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9f79/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f9f79.dir/build.make CMakeFiles/cmTC_f9f79.dir/build
+Building C object CMakeFiles/cmTC_f9f79.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DINLINE_WORKS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f9f79.dir/src.c.o   -c /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9f79
+/usr/local/Cellar/cmake/3.17.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9f79.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DINLINE_WORKS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9f79.dir/src.c.o  -o cmTC_f9f79 
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Looking for a ASM_NASM compiler passed with the following output:
+-- The ASM_NASM compiler identification is YASM
+-- Found assembler: /usr/local/bin/yasm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/georgezhou/Downloads/heif/libjpeg-turbo-2.0.4/simd/CMakeFiles/CheckASM_NASM
+
+Checking whether the ASM_NASM compiler is YASM using "--version" matched "(yasm)":
+yasm 1.3.0
+Compiled on Dec 20 2019.
+Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+Run yasm --license for licensing overview and summary.

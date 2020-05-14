@@ -1,0 +1,10 @@
+prefix=/Users/georgezhou/Downloads/heif/build/jpeg
+exec_prefix=/Users/georgezhou/Downloads/heif/build/jpeg
+libdir=/Users/georgezhou/Downloads/heif/build/jpeg/lib
+includedir=/Users/georgezhou/Downloads/heif/build/jpeg/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.4
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
